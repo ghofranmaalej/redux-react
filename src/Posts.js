@@ -41,7 +41,7 @@ export default function Posts() {
       </div>
       {posts.length > 0
         ? posts.map((post, key) => (
-            <div key={post} className="posts">
+            <div key={key} className="posts">
               <h1>{post.title}</h1>
               <p>{post.description}</p>
               <button
