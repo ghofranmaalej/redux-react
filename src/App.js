@@ -4,6 +4,7 @@ import Posts from "./Posts";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ComponentA } from "./ComponentA";
 import { ComponentB } from "./ComponentB";
+import { Data } from "./Data";
 
 function App() {
   return (
@@ -14,8 +15,9 @@ function App() {
           <Route path="/a" element={<ComponentA />} />
           <Route path="/b" element={<ComponentB />} />  
         </Routes> */}
-        <ComponentA/>
-        <ComponentB/>
+        <ComponentA />
+        <ComponentB />
+        <Data />
       </div>
     </BrowserRouter>
   );
